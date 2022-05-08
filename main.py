@@ -5,8 +5,8 @@
 
 import requests
 
-def call_pylenin():
-    r = requests.get("https://www.pylenin.com")
+def call_yahoo():
+    r = requests.get("https://www.yahoo.com")
     if r.status_code == 200:
         return "It was a success!"
 def print_hi(name):
@@ -17,5 +17,5 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    print(call_pylenin())
+    print(call_yahoo())
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
